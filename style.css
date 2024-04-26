@@ -1,0 +1,159 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.bold_highlight{
+    font-weight: bold;
+}
+.sub_highlight{
+    font-size: small;
+}
+.left_align{
+    text-align: left;
+}
+.right_align{
+    text-align: right;
+}
+.main_content .cards .icons:hover{
+    width: 80px;
+    height: 80px;
+}
+
+#sidebar_container{
+    flex: 1;
+    transition: 1s;
+}
+.sidebar{
+    
+    width: 20vw;
+    min-width: 250px;
+    background-color:  rgb(218, 255, 255);
+    height: 100vh;
+    border-right: 0.5px solid rgb(138, 138, 138);
+    position: sticky;
+    box-sizing: fixed;
+    display: flex;
+    top: 0;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#side_toggle{
+    position: fixed;
+    left: 0.5rem;
+    top: 0.5rem;
+    background-color: transparent;
+    width: 3rem;
+    height: 3rem;
+    margin-top: 1rem;
+    overflow: hidden;
+    border: none;
+    outline-style: none;
+    border-radius: 50%;
+    z-index: 1;
+}
+#side_toggle:hover{
+    background-color: rgba(234, 234, 234, 0.508);
+
+}
+.profile_img{
+    margin-top: 5rem;
+    height: 13rem;
+    width: 13rem;
+    border: 5px solid rgb(138, 138, 138);
+    border-radius: 50%;
+
+}
+.profile_img2{
+    display: none;
+}
+.navs_list{
+    margin-top: 50px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.navs_list_items a{
+    font-weight: bold;
+    font-size: large;
+    color: rgb(48, 48, 48);
+    font-size: larger;
+    transition: 0.5s;
+}
+.navs_list_items a:hover{
+    color: black;
+    font-size: xx-large;
+    text-decoration: none;
+}
+
+
+
+.main_content{
+    flex: 5;
+    background-color: rgb(218, 255, 255);
+    overflow-x: auto;
+    display: flex;
+    flex-direction: column;
+}
+#ABOUT{
+    padding: 100px;
+    text-align: center;
+}
+#pname{
+    font-size: 3.5rem;
+    font-style: italic;
+}
+.cards{
+    background-color:rgb(255, 255, 255) ;
+    padding: 50px;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 2px 4px 10px 1px rgb(138, 138, 138);
+    box-shadow: 2px 4px 10px 1px rgb(138, 138, 138);
+    border-radius: 50px;
+    transition: 0.5s;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.main_content .cards:hover{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: rgb(246, 255, 255);
+}
+.head{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.body{
+    text-align: center;
+    font-size: large;
+}
+#social{
+    overflow-x: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hide{
+    width: 0px;
+    display: none;
+}
+.show{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.show .profile_img{
+    width: 15rem;
+    height: 15rem;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
