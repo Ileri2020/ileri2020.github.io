@@ -156,4 +156,29 @@
     margin-top: 0px;
     padding-top: 0px;
 }
+@media (max-width: 500px) {
+    #ABOUT{
+        padding: 20px;
+    }
+    #pname{
+        font-size: 1.5rem;
+    }
+    .cards{
+        padding: 20px;
+        margin: 3px;
+    }
+    .head{
+        font-size: 1.2rem;
+    }
+    #sidebar_container{
+        position: relative;
+        width: 20vw;
+    }
+    .sidebar{
+    
+        width: 20vw;
+        min-width: 250px;
+        position: sticky;
+    }
+}
 
